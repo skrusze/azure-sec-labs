@@ -5,7 +5,7 @@ set -euo pipefail
 export LOC="swedencentral"
 export RG="rg-sec-lab-01"
 export TAGS="env=lab owner=szymon purpose=cloud-security"
-export KV="${KV:-kvseclab$RANDOM$RANDOM}"
+export KV="${KV:-kvseclab2137}"
 
 # --- Ensure subscription is set (optional) ---
 # az account set --subscription "<YOUR_SUBSCRIPTION_ID>"
